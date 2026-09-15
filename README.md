@@ -13,7 +13,7 @@ This repository reproduces the analytical results related to the Research Paper 
    SOC concentration thresholds at which four soil functions (physical: bulk density; chemical: pH, cation exchange capacity; ecosystem: net primary productivity) begin to deteriorate, applied via a pre-computed, tiered (unit-specific > sub-ecoregion > ecoregion > national) assignment across 1,156 ecoregion x soil-order x land-use units (ECUs) and 50.48 million 250 m pixels.
    
 3. **Literature-threshold validation**
-   the empirically-derived thresholds above are benchmarked against two SOC concentration values commonly cited in the literature as generic global degradation thresholds: 2.0% and 1.1% SOC by mass (20.0 and 11.0 g C/kg).
+   the empirically-derived thresholds above are benchmarked against two SOC concentration values commonly cited in the literature as generic global degradation thresholds: 2.0% and 1.1% SOC by mass (20 and 11 g C/kg).
 
 4. **Degradation boundary definition**
    a three-line evidence synthesis (multi-function convergence, historical depletion, functional transition probability) classifying land area as within bounds, approaching boundary, or beyond boundary, computed under both the empirical and the two literature-referenced threshold bases.
