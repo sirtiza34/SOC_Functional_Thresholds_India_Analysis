@@ -23,6 +23,11 @@ This repository reproduces the analytical results related to the Research Paper 
 
 Sensitivity (8 alternative model specifications) and resilience-classification results, which are computationally expensive and unaffected by the analyses above, are loaded from pre-computed summary files for completeness rather than recomputed.
 
+## Data Availability
+The datasets required to run the scripts are archived on Zenodo accessible at https://doi.org/10.5281/zenodo.18884892. The archive contains the processed spatial datasets used for $SOC_{stock}$ modelling and simluation, including climate forcings, LUH2 land-use forcings, and other static geo-environmental features required to reproduce the simulations.
+
+**Data Citation:** _Majid, S. I. (2026). Geostatistical Dataset for Topsoil Organic Carbon Modelling in India Using CMIP6 Climate Projections and LUH2 Land Use Data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18884892_
+
 ## Scope note
 
 Two chemical/ecosystem threshold models and the resulting tiered threshold assignment are fit by hierarchical Bayesian partial-pooling regression (Markov Chain Monte Carlo or MCMC (No-U-Turn Sampler, four chains)) in the full project pipeline and are loaded here as pre-fitted results (`data/step11_thresholds.csv`, `data/step5_threshold_uncertainty.csv`) rather than refit, since MCMC sampling is computationally expensive and not the subject of this notebook. Every other analytical step is computed in full in this notebook from the raw exported raster/tabular layers in `data/`.
