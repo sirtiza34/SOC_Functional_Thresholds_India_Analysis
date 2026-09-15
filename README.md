@@ -28,7 +28,7 @@ Sensitivity (8 alternative model specifications) and resilience-classification r
 Two chemical/ecosystem threshold models and the resulting tiered threshold assignment are fit by hierarchical Bayesian partial-pooling regression (Markov Chain Monte Carlo or MCMC (No-U-Turn Sampler, four chains)) in the full project pipeline and are loaded here as pre-fitted results (`data/step11_thresholds.csv`, `data/step5_threshold_uncertainty.csv`) rather than refit, since MCMC sampling is computationally expensive and not the subject of this notebook. Every other analytical step is computed in full in this notebook from the raw exported raster/tabular layers.
 
 ## Data Availability
-Go to ``data/` folder.
+Go to `data/` folder.
 
 ## Running
 
