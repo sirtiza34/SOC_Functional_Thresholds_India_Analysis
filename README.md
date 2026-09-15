@@ -1,6 +1,8 @@
 # SOC_Functional_Thresholds_India_Analysis
 
-This repository reproduces the analytical results related to the Research Paper "---------" in a self-contained Jupyter notebook:
+This repository reproduces the analytical results related to the Research Paper "Integrating functionally-based soil organic carbon threshold models with reconstructed historical baseline to evaluate a soil degradation boundary in India<img width="468" height="84" alt="image" src="https://github.com/user-attachments/assets/f2576aa4-e6e6-4775-b2f1-38c1b215bc3a" />
+
+" in a self-contained Jupyter notebook:
 
 - **`SOC_Functional_Thresholds_India_Analysis.ipynb`** — the core quantitative pipeline (historical baseline, tiered functional thresholds, literature-threshold benchmarking, and boundary definition).
 
