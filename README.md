@@ -28,25 +28,7 @@ Sensitivity (8 alternative model specifications) and resilience-classification r
 Two chemical/ecosystem threshold models and the resulting tiered threshold assignment are fit by hierarchical Bayesian partial-pooling regression (Markov Chain Monte Carlo or MCMC (No-U-Turn Sampler, four chains)) in the full project pipeline and are loaded here as pre-fitted results (`data/step11_thresholds.csv`, `data/step5_threshold_uncertainty.csv`) rather than refit, since MCMC sampling is computationally expensive and not the subject of this notebook. Every other analytical step is computed in full in this notebook from the raw exported raster/tabular layers in `data/`.
 
 ## Data Availability
-The datasets required to run the scripts are archived on Zenodo accessible at https://doi.org/10.5281/zenodo.18884892. The archive contains the processed spatial datasets used for $SOC_{stock}$ modelling and simluation, including climate forcings, LUH2 land-use forcings, and other static geo-environmental features required to reproduce the simulations.
-
-All inputs should be assembled in the `data/` and the details of data are provided as under:
-
-| File | Description |
-|---|---|
-| `step13_soc_stack.tif` | Historical SOC stock reconstruction, 7 epochs (NoLU, 900-2010 CE), ~10 km grid |
-| `step10_feature_stack.tif` | Historical feature stack (used here only for its valid-pixel mask) |
-| `ecoregion_id.tif` | Ecoregion identifier raster, 250 m grid |
-| `ecu_support_table.csv` | Ecoregion id-to-name lookup and sample-support metadata |
-| `step11_thresholds.csv` | Hierarchical Bayesian threshold fits (national and ecoregion level) |
-| `step5_threshold_uncertainty.csv` | Tiered threshold assignment (median, lower/upper 95% CI) per ECU |
-| `master_analysis_database.parquet` | Pixel-level contemporary database, 50.48M rows |
-| `step19_sensitivity_summary.csv` | Pre-computed 8-scenario sensitivity summary |
-| `step18_group_a_resilience_opportunity.csv`, `step18_group_b_continued_loss_risk.csv` | Pre-computed resilience-class ecoregion lists |
-
-The notebook additionally reads the ecoregion-level and pixel-sample intermediate result tables in `data/` (`step1_*`-`step20_*`), which are the saved outputs of the corresponding pipeline steps; the largest is `step6_functional_state_sample.csv` (280 MB, the spatially block-declustered 395,750-pixel sample carrying per-pixel `P(SOC<T)` for each response domain).
-
-The historical SOC layers are a depth-integrated 0-30 cm reconstruction built following the global SOC-debt reconstruction method of Sanderman, Hengl & Fiske (2017, *PNAS*). Contemporary soil layers are SoilGrids v2.0 (Poggio et al., 2021, *SOIL*).
+The datasets required to run the scripts are archived on Zenodo accessible at https://doi.org/10.5281/zenodo.18884892. The archive contains the processed spatial datasets used for $SOC_{stock}$ modelling and simluation, including climate forcings, LUH2 land-use forcings, and other static geo-environmental features required to reproduce the simulations. All inputs should be assembled in the `data/` and then used.
 
 ## Running
 
