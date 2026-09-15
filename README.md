@@ -1,7 +1,5 @@
 # SOC_Functional_Thresholds_India_Analysis
 
-# A soil organic carbon degradation boundary for India
-
 This repository reproduces the analytical results related to the Research Paper "---------" in a self-contained Jupyter notebook:
 
 - **`SOC_Functional_Thresholds_India_Analysis.ipynb`** — the core quantitative pipeline (historical baseline, tiered functional thresholds, literature-threshold benchmarking, and boundary definition).
