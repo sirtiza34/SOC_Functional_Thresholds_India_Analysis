@@ -58,4 +58,4 @@ The  notebook is a standalone, self-contained subsets of a larger three-phase an
 
 ## Citation
 
-Majid, S.I. (2026). sirtiza34/SOC_Functional_Thresholds_India_Analysis: Initial release: SOC Functional Threshold India Analysis (Version sirtiza34_SOC-based_Degradation_Threshold) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22806576
+Majid, S. I. (2026). A Multifunctional Soil Degradation Boundary Assessment Notebook for India Integrating Historical SOC Depletion and Functional Thresholds (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22806576
