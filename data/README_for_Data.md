@@ -1,5 +1,5 @@
 ## Data Availability
 
-The datasets required to run the scripts are archived on Zenodo accessible at https://doi.org/10.5281/zenodo.18884892. The archive contains the processed spatial datasets used for $SOC_{stock}$ modelling and simluation, including climate forcings, LUH2 land-use forcings, and other static geo-environmental features required to reproduce the simulations. All inputs should be assembled in the `data/` and then used.
+The datasets required to run the scripts are archived on Zenodo accessible at https://doi.org/10.5281/zenodo.22765784. The repository contains the complete dataset supporting the multifunctional assessment of SOC-based soil degradation boundaries across India, incorporating paleo-SOC reconstructions to contextualize historical soil carbon dynamics. All datasets necessary to reproduce the complete assessment are provided. To ensure reproducibility, all input datasets should be assembled in the data/ directory prior to executing the scripts.
 
-Data Citation: Majid, S. I. (2026). Geostatistical Dataset for Topsoil Organic Carbon Modelling in India Using CMIP6 Climate Projections and LUH2 Land Use Data [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18884892
+Data Citation: Majid, S. I. (2026). Soil organic carbon threshold and historical-baseline datasets underlying a soil degradation boundary evaluation for India [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22765784
