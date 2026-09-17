@@ -55,3 +55,7 @@ From `SOC_Functional_Thresholds_India_Analysis.ipynb`:
 ## Relationship to the full project
 
 The  notebook is a standalone, self-contained subsets of a larger three-phase analysis pipeline; together they reproduce all analyses reported in the manuscript and its Supplementary Information, computed directly from raw exported data rather than depending on any other publication.
+
+## Citation
+
+Majid, S.I. (2026). sirtiza34/SOC_Functional_Thresholds_India_Analysis: Initial release: SOC Functional Threshold India Analysis (Version sirtiza34_SOC-based_Degradation_Threshold) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22806576
